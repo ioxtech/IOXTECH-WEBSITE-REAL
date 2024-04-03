@@ -8727,3 +8727,9 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+/* ====================== [ BG Image ] ====================== */
+
+.custom-background {
+  background-image: url('img/Slide 5.jpg');
+}
+
