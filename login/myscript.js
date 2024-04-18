@@ -74,7 +74,7 @@ signinButton.addEventListener("click", (e) => {
         .then(() => {
           // Data saved successfully!
           //   alert("user telah sukses login");
-          location.href = "https://www.ioxtechglobal.com/admin";
+          location.href = "https://www.ioxtechglobal.com/admin/";
         })
         .catch((error) => {
           //the write failed
