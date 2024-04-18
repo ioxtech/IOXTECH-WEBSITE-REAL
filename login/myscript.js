@@ -78,7 +78,7 @@ signinButton.addEventListener("click", (e) => {
         })
         .catch((error) => {
           //the write failed
-          alert(Failed to login);
+          alert("Failed to login");
         });
     })
     .catch((error) => {
@@ -86,7 +86,4 @@ signinButton.addEventListener("click", (e) => {
       const errorMessage = error.message;
       alert(errorMessage);
     });
-  signOut(auth)
-    .then(() => {})
-    .catch((error) => {});
 });
