@@ -73,12 +73,12 @@ signinButton.addEventListener("click", (e) => {
       })
         .then(() => {
           // Data saved successfully!
-          //   alert("user telah sukses login");
+          alert("Successfully Login");
           location.href = "https://www.ioxtechglobal.com/admin/";
         })
         .catch((error) => {
           //the write failed
-          alert(error);
+          alert(Failed to login);
         });
     })
     .catch((error) => {
