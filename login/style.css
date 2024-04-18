@@ -14,11 +14,11 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-image: 'login/lg_bg.jpg'; /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-image: url('login/lg_bg.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
   background-size: cover; /* Cover the entire container with the background image */
   background-position: center; /* Center the background image */
   min-height: 100vh;
-  overflow: hidden;
+  overflow: hidden; /* Hide any content that overflows the container */
 }
 
 .forms-container {
