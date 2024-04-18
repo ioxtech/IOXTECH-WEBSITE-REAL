@@ -74,7 +74,7 @@ signinButton.addEventListener("click", (e) => {
         .then(() => {
           // Data saved successfully!
           //   alert("user telah sukses login");
-          location.href = "http://127.0.0.1:5500/auth_firebase_cdn/admin.html";
+          location.href = "https://www.ioxtechglobal.com/login/admin";
         })
         .catch((error) => {
           //the write failed
