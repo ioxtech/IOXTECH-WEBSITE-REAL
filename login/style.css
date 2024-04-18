@@ -14,7 +14,9 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #0C71E0;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fvisitokinawajapan.com%2Fdiscover%2Fokinawa-at-a-glance%2F&psig=AOvVaw1Dr0HSEEpe9_v_sn05XMRk&ust=1713504216595000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID18-KCy4UDFQAAAAAdAAAAABAE'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
   min-height: 100vh;
   overflow: hidden;
 }
