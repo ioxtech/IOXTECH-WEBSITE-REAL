@@ -1746,14 +1746,14 @@ a:hover, span:hover {
 .navbar .navbar-nav .nav-link-2 {
     display: inline-block; /* Ensures the anchor behaves like a block element */
     padding: 10px 20px; /* Add padding for spacing */
-    border: 1px solid black; /* Add a border */
+    border: 10px solid black; /* Add a border */
     text-decoration: none; /* Remove default underline */
-    color: black; /* Set default text color */
+    color: white; /* Set default text color */
     transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition effect */
 }
 .navbar .navbar-nav .nav-link-2:hover {
-    background-color: transparent; /* Change background color on hover */
-    color: white; /* Change text color on hover */
+    background-color: #00B8EA; /* Change background color on hover */
+    color: black; /* Change text color on hover */
     border-color: black; /* Change border color on hover */
 }
 .navbar-nav {
