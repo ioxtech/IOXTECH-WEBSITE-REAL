@@ -1751,8 +1751,8 @@ a:hover, span:hover {
     color: black; /* Set default text color */
     transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition effect */
 }
-.navbar .navbar-nav .nav-link:hover {
-    background-color: black; /* Change background color on hover */
+.navbar .navbar-nav .nav-link-2:hover {
+    background-color: transparent; /* Change background color on hover */
     color: white; /* Change text color on hover */
     border-color: black; /* Change border color on hover */
 }
