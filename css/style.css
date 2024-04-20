@@ -1746,7 +1746,8 @@ a:hover, span:hover {
 .navbar .navbar-nav .nav-link-2 {
     display: inline-block; /* Ensures the anchor behaves like a block element */
     padding: 10px 20px; /* Add padding for spacing */
-    border: 10px solid black; /* Add a border */
+    border: 3px solid black; /* Add a border */
+    border-radius: 20px;
     text-decoration: none; /* Remove default underline */
     color: white; /* Set default text color */
     transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition effect */
