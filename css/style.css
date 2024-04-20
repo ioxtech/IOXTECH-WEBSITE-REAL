@@ -1744,6 +1744,9 @@ a:hover, span:hover {
 }
 
 .navbar .navbar-nav .nav-link-2 {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the "Login" link to the left */
     display: inline-block; /* Ensures the anchor behaves like a block element */
     padding: 10px 20px; /* Add padding for spacing */
     border: 3px solid black; /* Add a border */
@@ -1755,7 +1758,7 @@ a:hover, span:hover {
 .navbar .navbar-nav .nav-link-2:hover {
     background-color: #00B8EA; /* Change background color on hover */
     color: black; /* Change text color on hover */
-    border-color: black; /* Change border color on hover */
+    border-color: white; /* Change border color on hover */
 }
 .navbar-nav {
     display: flex;
