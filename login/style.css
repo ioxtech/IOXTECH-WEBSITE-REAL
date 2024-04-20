@@ -14,9 +14,7 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-image: url('login/lg_bg.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
-  background-size: cover; /* Cover the entire container with the background image */
-  background-position: center; /* Center the background image */
+  background-color: #00B8EA; /* Replace '#your_color_here' with your desired color value */
   min-height: 100vh;
   overflow: hidden; /* Hide any content that overflows the container */
 }
