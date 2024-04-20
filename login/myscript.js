@@ -28,7 +28,7 @@ const signinButton = document.getElementById("signin-button");
 const signupButton = document.getElementById("signup-button");
 
 signupButton.addEventListener("click", (e) => {
-  let name = document.getElementById("name").value;
+  let username = document.getElementById("username").value;
   let nohp = document.getElementById("nohp").value;
   let emailSignup = document.getElementById("email_signup").value;
   let passwordSignup = document.getElementById("psw_signup").value;
@@ -39,7 +39,7 @@ signupButton.addEventListener("click", (e) => {
       const user = userCredential.user;
 
       set(ref(database, "users/" + user.uid), {
-        name: name,
+        username: username,
         nohp: nohp,
         email: emailSignup,
         password: passwordSignup
