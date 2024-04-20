@@ -1756,6 +1756,15 @@ a:hover, span:hover {
     color: white; /* Change text color on hover */
     border-color: black; /* Change border color on hover */
 }
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-2 {
+    margin-right: auto; /* Pushes the "Login" link to the left */
+}
+
 
 .navbar .navbar-nav .dropdown-menu {
   padding: 10px 0;
