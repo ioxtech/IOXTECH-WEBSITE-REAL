@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Google Sheet.css">
+	<style>
+        body {
+            background-image: url('img/SaaS.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="" name="contact-form">
+			<h4>Register Now</h4>
+			<input type="text" name="name" placeholder="Full Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<div>
+                <select name="country-code" required>
+                    <option value="">Country Code</option>
+					<option value="+60">+60 (Malaysia)</option>
+                    <option value="+1">+1 (United States)</option>
+                    <option value="+44">+44 (United Kingdom)</option>
+                </select>
+                <input type="tel" name="phone-number" placeholder="Phone Number" style="width: calc(100% - 90px);" required>
+            </div>
+			<input type="text" name="business-name" placeholder="Business Name" required>
+			<input type="text" name="business-adress-1" placeholder="Business Adress 1" required>
+			<input type="text" name="business-adress-2" placeholder="Business Adress 2" required>
+			<div>
+				<input type="text" name="city" placeholder="City" required>
+				<input type="text" name="post-code" placeholder="Post Code" required>
+			</div>
+			<div>
+				<input type="text" name="state" placeholder="State" required>
+			<select name="country" style="width: calc(100% - 235px); margin-left: 10px;" required>
+				<option type="text">Country</option>
+				<option type="text">Malaysia</option>
+				<option type="text">United States</option>
+				<option type="text">United Kingdom</option>
+			</select>
+			</div>
+
+			<!--<textarea name="adress" rows="7" placeholder="Business Adress"></textarea>-->
+			<input type="submit" value="Submit" id="submit">
+		</form>
+	</div>
+
+	<script src="Google Sheet.js"></script>
+</body>
+</html>
