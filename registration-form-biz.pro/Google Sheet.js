@@ -8,7 +8,7 @@ form.addEventListener('submit', e => {
   .then(response => {
     if (response.ok) {
       alert("Thank you! Your form is submitted successfully.");
-      window.location.href = "https://www.ioxtechglobal.com/"; // Change the URL to the desired page
+      window.location.href = "https://buy.stripe.com/bIYg26eVR1V9fdecMO"; // Change the URL to the desired page
     } else {
       throw new Error('Network response was not ok.');
     }
