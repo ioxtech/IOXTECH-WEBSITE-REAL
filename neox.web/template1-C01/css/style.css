@@ -60,26 +60,26 @@
 **/
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900|Source+Sans+Pro:300,400,600,700,900');
 /*----bootstrap css ----- */
-@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url('neox.web/template1-C01/vendor/bootstrap/css/bootstrap.min.css');
 /*----camera-slider---*/
-@import url('../vendor/Camera-master/css/camera.css');
+@import url('neox.web/template1-C01/vendor/Camera-master/css/camera.css');
 /*------- menu ------*/
-@import url('../vendor/menu/dist/css/slimmenu.css');
+@import url('neox.web/template1-C01/vendor/menu/dist/css/slimmenu.css');
 /*----font awesome -------*/
-@import url('../fonts/font-awesome/css/font-awesome.min.css');
+@import url('neox.web/template1-C01/fonts/font-awesome/css/font-awesome.min.css');
 /*----owl-carousel css----*/
-@import url('../vendor/owl-carousel/owl.carousel.css');
-@import url('../vendor/owl-carousel/owl.theme.css');
+@import url('neox.web/template1-C01/vendor/owl-carousel/owl.carousel.css');
+@import url('neox.web/template1-C01/vendor/owl-carousel/owl.theme.css');
 /*-------- animated css ------*/
-@import url('../vendor/WOW-master/css/libs/animate.css');
+@import url('neox.web/template1-C01/vendor/WOW-master/css/libs/animate.css');
 /*--------- flat-icon ---------*/
-@import url('../fonts/icon/font/flaticon.css');
+@import url('neox.web/template1-C01/fonts/icon/font/flaticon.css');
 /*----------- Fancybox css -------*/
-@import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
+@import url('neox.web/template1-C01/vendor/fancybox/dist/jquery.fancybox.min.css');
 /*----Language Switcher---*/
-@import url('../vendor/language-switcher/polyglot-language-switcher.css');
+@import url('neox.web/template1-C01/vendor/language-switcher/polyglot-language-switcher.css');
 /*------------- Map -------------*/
-@import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
+@import url('neox.web/template1-C01/vendor/sanzzy-map/dist/snazzy-info-window.min.css');
 
 
 /*** 
